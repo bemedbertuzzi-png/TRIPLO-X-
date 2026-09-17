@@ -1,0 +1,55 @@
+{
+  "_comentario": [
+    "Formato do cardapio oficial. Copie para dados/cardapio.json,",
+    "preencha com os dados reais e rode: npm run seed",
+    "Precos SEMPRE em centavos (2500 = R$ 25,00).",
+    "O seed e idempotente: rodar duas vezes nao duplica nada."
+  ],
+  "config": {
+    "pedido_minimo_centavos": 0,
+    "aceita_entrega": true,
+    "aceita_retirada": true
+  },
+  "bairros": [
+    { "nome": "Centro", "taxa_centavos": 500 },
+    { "nome": "Albatroz", "taxa_centavos": 800 }
+  ],
+  "categorias": [
+    {
+      "slug": "xis",
+      "nome": "Xis",
+      "descricao": "Lanches na chapa",
+      "produtos": [
+        {
+          "slug": "xis-salada",
+          "nome": "Xis Salada",
+          "descricao": "Pao, hamburguer, queijo, alface, tomate, milho, ervilha e maionese",
+          "preco_centavos": 2500,
+          "imagem_url": null,
+          "grupos": [
+            {
+              "nome": "Preparo",
+              "tipo": "multiplo",
+              "min_escolhas": 0,
+              "max_escolhas": 2,
+              "opcoes": [
+                { "nome": "Xis partido", "preco_centavos": 0 },
+                { "nome": "Fritas fora", "preco_centavos": 0 }
+              ]
+            },
+            {
+              "nome": "Adicionais",
+              "tipo": "multiplo",
+              "min_escolhas": 0,
+              "max_escolhas": null,
+              "opcoes": [
+                { "nome": "Bacon", "preco_centavos": 500 },
+                { "nome": "Ovo", "preco_centavos": 300 }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

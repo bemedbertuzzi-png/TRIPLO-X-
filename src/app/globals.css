@@ -1,0 +1,73 @@
+@import "tailwindcss";
+
+/*
+ * Tokens da identidade do Triplo Xis, extraidos da logo oficial:
+ * fundo preto, amarelo quente e vermelho da marca.
+ *
+ * A camada visual e intencionalmente isolada nestes tokens + nos componentes
+ * de UI. Quando o projeto aprovado do Claude Design for aplicado, troca-se
+ * este bloco e os componentes de apresentacao, sem tocar em regra de negocio.
+ */
+@theme {
+  --color-fundo: #0b0b0c;
+  --color-superficie: #161619;
+  --color-superficie-alta: #1f1f24;
+  --color-borda: #2a2a31;
+
+  --color-tinta: #f7f7f5;
+  --color-tinta-suave: #a8a8b3;
+
+  --color-marca-amarelo: #ffc803;
+  --color-marca-amarelo-claro: #ffdb54;
+  --color-marca-vermelho: #e8231f;
+  --color-marca-vermelho-escuro: #b8120f;
+
+  --color-sucesso: #22c55e;
+  --color-alerta: #f59e0b;
+  --color-perigo: #ef4444;
+
+  --radius-cartao: 1rem;
+  --font-display: var(--fonte-display), system-ui, sans-serif;
+}
+
+:root {
+  color-scheme: dark;
+}
+
+html,
+body {
+  background-color: var(--color-fundo);
+  color: var(--color-tinta);
+  -webkit-font-smoothing: antialiased;
+}
+
+body {
+  /* respiro para a barra fixa do carrinho no celular */
+  padding-bottom: env(safe-area-inset-bottom);
+}
+
+/* Acessibilidade: foco sempre visivel */
+:focus-visible {
+  outline: 2px solid var(--color-marca-amarelo);
+  outline-offset: 2px;
+  border-radius: 4px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* esconde a barra de rolagem horizontal da navegacao de categorias */
+.rolagem-sem-barra {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+.rolagem-sem-barra::-webkit-scrollbar {
+  display: none;
+}
