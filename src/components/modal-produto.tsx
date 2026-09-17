@@ -154,7 +154,10 @@ export function ModalProduto({ produto, itemExistente, aoFechar, aoConfirmar }: 
                 <span className="font-semibold">{grupo.nome}</span>
                 <span className="text-xs text-(--color-tinta-suave)">
                   {grupo.min_escolhas > 0 ? "Obrigatório" : "Opcional"}
-                  {grupo.max_escolhas !== null ? ` · até ${grupo.max_escolhas}` : ""}
+                  {/* "até 1" é redundante quando o grupo já é de escolha única */}
+                  {grupo.tipo === "multiplo" && grupo.max_escolhas !== null
+                    ? ` · até ${grupo.max_escolhas}`
+                    : ""}
                 </span>
               </legend>
 
