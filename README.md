@@ -10,6 +10,30 @@ integração com o sistema interno de comandas que já existe.
 
 ---
 
+## Deploy rápido na Vercel
+
+```bash
+npm install
+npm run build          # confirma que está tudo certo
+```
+
+Depois: Vercel → **Add New → Project** → suba esta pasta (ou ligue o repositório).
+Em **Settings → Environment Variables**, adicione:
+
+| Variável | Onde obter |
+|---|---|
+| `SUPABASE_SERVICE_ROLE_KEY` | Supabase → Settings → API → `service_role` |
+| `ADMIN_TOKEN` | gere: `node -e "console.log(require('crypto').randomBytes(32).toString('hex'))"` |
+| `IMPRESSAO_TOKEN` | gere do mesmo jeito |
+
+A URL e a chave publicável do Supabase já vêm em `.env.production` — sem elas o
+cardápio subiria vazio. Sem a `SUPABASE_SERVICE_ROLE_KEY`, o site mostra o
+cardápio e o carrinho, mas **não consegue fechar pedido**.
+
+Passo a passo completo em [`docs/DEPLOY.md`](docs/DEPLOY.md).
+
+---
+
 ## Stack
 
 | Camada | Escolha |
