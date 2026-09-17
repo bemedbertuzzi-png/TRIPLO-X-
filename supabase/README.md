@@ -40,3 +40,4 @@ supabase db pull
 | `…_lookup_cobranca` | Cobrança mais recente de um pedido |
 | `…_importar_cardapio` | Seed idempotente do cardápio |
 | `…_hardening` | `search_path` fixo e revogações extras |
+| `…_opcoes_preco_negativo` | Permite opção de tamanho com desconto (MINI) + piso de preço |

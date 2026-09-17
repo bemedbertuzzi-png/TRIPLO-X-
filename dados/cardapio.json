@@ -1,0 +1,1917 @@
+{
+  "_origem": "CardapioTriploX.2.pdf (Canva, 03/10/2025)",
+  "_observacoes": [
+    "Precos em centavos.",
+    "MINI e um grupo de tamanho: em todo o cardapio a diferenca e de R$ 2,00.",
+    "Xis Coracao c/ Cheddar corrigido para 39,00/37,00 (o PDF trazia mini mais caro).",
+    "Xis File c/ Palmito corrigido para 40,00/38,00 (o PDF trazia os dois iguais).",
+    "Bebidas marcadas CONSULTAR no PDF nao entram: nao ha preco definido.",
+    "Bairros e taxas nao vem deste arquivo: cadastrar separadamente."
+  ],
+  "categorias": [
+    {
+      "slug": "xis",
+      "nome": "Xis",
+      "descricao": "Lanches na chapa",
+      "produtos": [
+        {
+          "slug": "xis-salada",
+          "nome": "Xis Salada",
+          "descricao": "Pão, hambúrguer, queijo, presunto, tomate, alface, fritas, maionese e ovo",
+          "preco_centavos": 2500,
+          "imagem_url": null,
+          "grupos": [
+            {
+              "nome": "Tamanho",
+              "tipo": "unico",
+              "min_escolhas": 1,
+              "max_escolhas": 1,
+              "opcoes": [
+                {
+                  "nome": "Tradicional",
+                  "preco_centavos": 0
+                },
+                {
+                  "nome": "Mini",
+                  "preco_centavos": -200
+                }
+              ]
+            },
+            {
+              "nome": "Preparo",
+              "tipo": "multiplo",
+              "min_escolhas": 0,
+              "max_escolhas": 2,
+              "opcoes": [
+                {
+                  "nome": "Xis partido",
+                  "preco_centavos": 0
+                },
+                {
+                  "nome": "Fritas fora",
+                  "preco_centavos": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "slug": "xis-salada-duplo",
+          "nome": "Xis Salada Duplo",
+          "descricao": "Pão, 2 hambúrgueres, queijo, presunto, tomate, alface, fritas, maionese e ovo",
+          "preco_centavos": 3500,
+          "imagem_url": null,
+          "grupos": [
+            {
+              "nome": "Preparo",
+              "tipo": "multiplo",
+              "min_escolhas": 0,
+              "max_escolhas": 2,
+              "opcoes": [
+                {
+                  "nome": "Xis partido",
+                  "preco_centavos": 0
+                },
+                {
+                  "nome": "Fritas fora",
+                  "preco_centavos": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "slug": "xis-gado-4-queijos",
+          "nome": "Xis Gado 4 Queijos",
+          "descricao": "Pão, hambúrguer, 4 queijos, tomate, alface, fritas, maionese e ovo",
+          "preco_centavos": 3300,
+          "imagem_url": null,
+          "grupos": [
+            {
+              "nome": "Tamanho",
+              "tipo": "unico",
+              "min_escolhas": 1,
+              "max_escolhas": 1,
+              "opcoes": [
+                {
+                  "nome": "Tradicional",
+                  "preco_centavos": 0
+                },
+                {
+                  "nome": "Mini",
+                  "preco_centavos": -200
+                }
+              ]
+            },
+            {
+              "nome": "Preparo",
+              "tipo": "multiplo",
+              "min_escolhas": 0,
+              "max_escolhas": 2,
+              "opcoes": [
+                {
+                  "nome": "Xis partido",
+                  "preco_centavos": 0
+                },
+                {
+                  "nome": "Fritas fora",
+                  "preco_centavos": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "slug": "xis-frango",
+          "nome": "Xis Frango",
+          "descricao": "Pão, peito de frango desfiado, queijo, tomate, alface, fritas, maionese e ovo",
+          "preco_centavos": 2600,
+          "imagem_url": null,
+          "grupos": [
+            {
+              "nome": "Tamanho",
+              "tipo": "unico",
+              "min_escolhas": 1,
+              "max_escolhas": 1,
+              "opcoes": [
+                {
+                  "nome": "Tradicional",
+                  "preco_centavos": 0
+                },
+                {
+                  "nome": "Mini",
+                  "preco_centavos": -200
+                }
+              ]
+            },
+            {
+              "nome": "Preparo",
+              "tipo": "multiplo",
+              "min_escolhas": 0,
+              "max_escolhas": 2,
+              "opcoes": [
+                {
+                  "nome": "Xis partido",
+                  "preco_centavos": 0
+                },
+                {
+                  "nome": "Fritas fora",
+                  "preco_centavos": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "slug": "xis-frango-catupiry",
+          "nome": "Xis Frango c/ Catupiry",
+          "descricao": "Pão, frango desfiado, queijo, catupiry, tomate, alface, fritas, maionese e ovo",
+          "preco_centavos": 3600,
+          "imagem_url": null,
+          "grupos": [
+            {
+              "nome": "Tamanho",
+              "tipo": "unico",
+              "min_escolhas": 1,
+              "max_escolhas": 1,
+              "opcoes": [
+                {
+                  "nome": "Tradicional",
+                  "preco_centavos": 0
+                },
+                {
+                  "nome": "Mini",
+                  "preco_centavos": -200
+                }
+              ]
+            },
+            {
+              "nome": "Preparo",
+              "tipo": "multiplo",
+              "min_escolhas": 0,
+              "max_escolhas": 2,
+              "opcoes": [
+                {
+                  "nome": "Xis partido",
+                  "preco_centavos": 0
+                },
+                {
+                  "nome": "Fritas fora",
+                  "preco_centavos": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "slug": "xis-coracao-4-queijos",
+          "nome": "Xis Coração 4 Queijos",
+          "descricao": "Pão, coração, 4 queijos, tomate, alface, fritas, maionese e ovo",
+          "preco_centavos": 3900,
+          "imagem_url": null,
+          "grupos": [
+            {
+              "nome": "Tamanho",
+              "tipo": "unico",
+              "min_escolhas": 1,
+              "max_escolhas": 1,
+              "opcoes": [
+                {
+                  "nome": "Tradicional",
+                  "preco_centavos": 0
+                },
+                {
+                  "nome": "Mini",
+                  "preco_centavos": -200
+                }
+              ]
+            },
+            {
+              "nome": "Preparo",
+              "tipo": "multiplo",
+              "min_escolhas": 0,
+              "max_escolhas": 2,
+              "opcoes": [
+                {
+                  "nome": "Xis partido",
+                  "preco_centavos": 0
+                },
+                {
+                  "nome": "Fritas fora",
+                  "preco_centavos": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "slug": "xis-coracao-cheddar",
+          "nome": "Xis Coração c/ Cheddar",
+          "descricao": "Pão, coração, queijo cheddar, tomate, alface, fritas, maionese e ovo",
+          "preco_centavos": 3900,
+          "imagem_url": null,
+          "grupos": [
+            {
+              "nome": "Tamanho",
+              "tipo": "unico",
+              "min_escolhas": 1,
+              "max_escolhas": 1,
+              "opcoes": [
+                {
+                  "nome": "Tradicional",
+                  "preco_centavos": 0
+                },
+                {
+                  "nome": "Mini",
+                  "preco_centavos": -200
+                }
+              ]
+            },
+            {
+              "nome": "Preparo",
+              "tipo": "multiplo",
+              "min_escolhas": 0,
+              "max_escolhas": 2,
+              "opcoes": [
+                {
+                  "nome": "Xis partido",
+                  "preco_centavos": 0
+                },
+                {
+                  "nome": "Fritas fora",
+                  "preco_centavos": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "slug": "xis-coracao-catupiry",
+          "nome": "Xis Coração c/ Catupiry",
+          "descricao": "Pão, coração, queijo catupiry, tomate, alface, fritas, maionese e ovo",
+          "preco_centavos": 3900,
+          "imagem_url": null,
+          "grupos": [
+            {
+              "nome": "Tamanho",
+              "tipo": "unico",
+              "min_escolhas": 1,
+              "max_escolhas": 1,
+              "opcoes": [
+                {
+                  "nome": "Tradicional",
+                  "preco_centavos": 0
+                },
+                {
+                  "nome": "Mini",
+                  "preco_centavos": -200
+                }
+              ]
+            },
+            {
+              "nome": "Preparo",
+              "tipo": "multiplo",
+              "min_escolhas": 0,
+              "max_escolhas": 2,
+              "opcoes": [
+                {
+                  "nome": "Xis partido",
+                  "preco_centavos": 0
+                },
+                {
+                  "nome": "Fritas fora",
+                  "preco_centavos": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "slug": "xis-calabresa",
+          "nome": "Xis Calabresa",
+          "descricao": "Pão, calabresa, queijo, tomate, alface, fritas, maionese e ovo",
+          "preco_centavos": 3300,
+          "imagem_url": null,
+          "grupos": [
+            {
+              "nome": "Tamanho",
+              "tipo": "unico",
+              "min_escolhas": 1,
+              "max_escolhas": 1,
+              "opcoes": [
+                {
+                  "nome": "Tradicional",
+                  "preco_centavos": 0
+                },
+                {
+                  "nome": "Mini",
+                  "preco_centavos": -200
+                }
+              ]
+            },
+            {
+              "nome": "Preparo",
+              "tipo": "multiplo",
+              "min_escolhas": 0,
+              "max_escolhas": 2,
+              "opcoes": [
+                {
+                  "nome": "Xis partido",
+                  "preco_centavos": 0
+                },
+                {
+                  "nome": "Fritas fora",
+                  "preco_centavos": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "slug": "xis-bacon",
+          "nome": "Xis Bacon",
+          "descricao": "Pão, hambúrguer, bacon, queijo, tomate, alface, fritas, maionese e ovo",
+          "preco_centavos": 3600,
+          "imagem_url": null,
+          "grupos": [
+            {
+              "nome": "Tamanho",
+              "tipo": "unico",
+              "min_escolhas": 1,
+              "max_escolhas": 1,
+              "opcoes": [
+                {
+                  "nome": "Tradicional",
+                  "preco_centavos": 0
+                },
+                {
+                  "nome": "Mini",
+                  "preco_centavos": -200
+                }
+              ]
+            },
+            {
+              "nome": "Preparo",
+              "tipo": "multiplo",
+              "min_escolhas": 0,
+              "max_escolhas": 2,
+              "opcoes": [
+                {
+                  "nome": "Xis partido",
+                  "preco_centavos": 0
+                },
+                {
+                  "nome": "Fritas fora",
+                  "preco_centavos": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "slug": "xis-vegetariano",
+          "nome": "Xis Vegetariano",
+          "descricao": "Pão, palmito, cebola, milho, ervilha, queijo, tomate, alface, fritas, maionese e ovo",
+          "preco_centavos": 2500,
+          "imagem_url": null,
+          "grupos": [
+            {
+              "nome": "Tamanho",
+              "tipo": "unico",
+              "min_escolhas": 1,
+              "max_escolhas": 1,
+              "opcoes": [
+                {
+                  "nome": "Tradicional",
+                  "preco_centavos": 0
+                },
+                {
+                  "nome": "Mini",
+                  "preco_centavos": -200
+                }
+              ]
+            },
+            {
+              "nome": "Preparo",
+              "tipo": "multiplo",
+              "min_escolhas": 0,
+              "max_escolhas": 2,
+              "opcoes": [
+                {
+                  "nome": "Xis partido",
+                  "preco_centavos": 0
+                },
+                {
+                  "nome": "Fritas fora",
+                  "preco_centavos": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "slug": "xis-cebola",
+          "nome": "Xis Cebola",
+          "descricao": "Pão, hambúrguer, queijo, cebola, milho, ervilha, tomate, alface, fritas, maionese e ovo",
+          "preco_centavos": 3000,
+          "imagem_url": null,
+          "grupos": [
+            {
+              "nome": "Tamanho",
+              "tipo": "unico",
+              "min_escolhas": 1,
+              "max_escolhas": 1,
+              "opcoes": [
+                {
+                  "nome": "Tradicional",
+                  "preco_centavos": 0
+                },
+                {
+                  "nome": "Mini",
+                  "preco_centavos": -200
+                }
+              ]
+            },
+            {
+              "nome": "Preparo",
+              "tipo": "multiplo",
+              "min_escolhas": 0,
+              "max_escolhas": 2,
+              "opcoes": [
+                {
+                  "nome": "Xis partido",
+                  "preco_centavos": 0
+                },
+                {
+                  "nome": "Fritas fora",
+                  "preco_centavos": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "slug": "xis-strogonoff",
+          "nome": "Xis Strogonoff",
+          "descricao": "Pão, strogonoff, ervilha, milho, queijo, tomate, alface, fritas, maionese e ovo",
+          "preco_centavos": 3800,
+          "imagem_url": null,
+          "grupos": [
+            {
+              "nome": "Tamanho",
+              "tipo": "unico",
+              "min_escolhas": 1,
+              "max_escolhas": 1,
+              "opcoes": [
+                {
+                  "nome": "Tradicional",
+                  "preco_centavos": 0
+                },
+                {
+                  "nome": "Mini",
+                  "preco_centavos": -200
+                }
+              ]
+            },
+            {
+              "nome": "Preparo",
+              "tipo": "multiplo",
+              "min_escolhas": 0,
+              "max_escolhas": 2,
+              "opcoes": [
+                {
+                  "nome": "Xis partido",
+                  "preco_centavos": 0
+                },
+                {
+                  "nome": "Fritas fora",
+                  "preco_centavos": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "slug": "xis-strogonoff-bacon",
+          "nome": "Xis Strogonoff c/ Bacon",
+          "descricao": "Pão, strogonoff, bacon, ervilha, milho, queijo, tomate, alface, fritas, maionese e ovo",
+          "preco_centavos": 4000,
+          "imagem_url": null,
+          "grupos": [
+            {
+              "nome": "Tamanho",
+              "tipo": "unico",
+              "min_escolhas": 1,
+              "max_escolhas": 1,
+              "opcoes": [
+                {
+                  "nome": "Tradicional",
+                  "preco_centavos": 0
+                },
+                {
+                  "nome": "Mini",
+                  "preco_centavos": -200
+                }
+              ]
+            },
+            {
+              "nome": "Preparo",
+              "tipo": "multiplo",
+              "min_escolhas": 0,
+              "max_escolhas": 2,
+              "opcoes": [
+                {
+                  "nome": "Xis partido",
+                  "preco_centavos": 0
+                },
+                {
+                  "nome": "Fritas fora",
+                  "preco_centavos": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "slug": "xis-file-bacon",
+          "nome": "Xis Filé c/ Bacon",
+          "descricao": "Pão, filé, bacon, queijo, tomate, alface, ervilha, milho, fritas, maionese e ovo",
+          "preco_centavos": 4200,
+          "imagem_url": null,
+          "grupos": [
+            {
+              "nome": "Tamanho",
+              "tipo": "unico",
+              "min_escolhas": 1,
+              "max_escolhas": 1,
+              "opcoes": [
+                {
+                  "nome": "Tradicional",
+                  "preco_centavos": 0
+                },
+                {
+                  "nome": "Mini",
+                  "preco_centavos": -200
+                }
+              ]
+            },
+            {
+              "nome": "Preparo",
+              "tipo": "multiplo",
+              "min_escolhas": 0,
+              "max_escolhas": 2,
+              "opcoes": [
+                {
+                  "nome": "Xis partido",
+                  "preco_centavos": 0
+                },
+                {
+                  "nome": "Fritas fora",
+                  "preco_centavos": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "slug": "xis-frango-4-queijos",
+          "nome": "Xis Frango 4 Queijos",
+          "descricao": "Pão, peito de frango desfiado, 4 queijos, tomate, alface, fritas, maionese e ovo",
+          "preco_centavos": 3600,
+          "imagem_url": null,
+          "grupos": [
+            {
+              "nome": "Tamanho",
+              "tipo": "unico",
+              "min_escolhas": 1,
+              "max_escolhas": 1,
+              "opcoes": [
+                {
+                  "nome": "Tradicional",
+                  "preco_centavos": 0
+                },
+                {
+                  "nome": "Mini",
+                  "preco_centavos": -200
+                }
+              ]
+            },
+            {
+              "nome": "Preparo",
+              "tipo": "multiplo",
+              "min_escolhas": 0,
+              "max_escolhas": 2,
+              "opcoes": [
+                {
+                  "nome": "Xis partido",
+                  "preco_centavos": 0
+                },
+                {
+                  "nome": "Fritas fora",
+                  "preco_centavos": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "slug": "xis-coracao",
+          "nome": "Xis Coração",
+          "descricao": "Pão, coração, queijo, presunto, tomate, alface, fritas, maionese e ovo",
+          "preco_centavos": 3600,
+          "imagem_url": null,
+          "grupos": [
+            {
+              "nome": "Tamanho",
+              "tipo": "unico",
+              "min_escolhas": 1,
+              "max_escolhas": 1,
+              "opcoes": [
+                {
+                  "nome": "Tradicional",
+                  "preco_centavos": 0
+                },
+                {
+                  "nome": "Mini",
+                  "preco_centavos": -200
+                }
+              ]
+            },
+            {
+              "nome": "Preparo",
+              "tipo": "multiplo",
+              "min_escolhas": 0,
+              "max_escolhas": 2,
+              "opcoes": [
+                {
+                  "nome": "Xis partido",
+                  "preco_centavos": 0
+                },
+                {
+                  "nome": "Fritas fora",
+                  "preco_centavos": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "slug": "xis-triplo-x",
+          "nome": "Xis Triplo X",
+          "descricao": "Pão, hambúrguer, calabresa, bacon, coração, frango, presunto, milho, ervilha, queijo, tomate, alface, fritas, maionese e 2 ovos",
+          "preco_centavos": 4500,
+          "imagem_url": null,
+          "grupos": [
+            {
+              "nome": "Preparo",
+              "tipo": "multiplo",
+              "min_escolhas": 0,
+              "max_escolhas": 2,
+              "opcoes": [
+                {
+                  "nome": "Xis partido",
+                  "preco_centavos": 0
+                },
+                {
+                  "nome": "Fritas fora",
+                  "preco_centavos": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "slug": "xis-file",
+          "nome": "Xis Filé",
+          "descricao": "Pão, bife de filé, queijo, tomate, alface, ervilha, milho, fritas, maionese e ovo",
+          "preco_centavos": 3900,
+          "imagem_url": null,
+          "grupos": [
+            {
+              "nome": "Tamanho",
+              "tipo": "unico",
+              "min_escolhas": 1,
+              "max_escolhas": 1,
+              "opcoes": [
+                {
+                  "nome": "Tradicional",
+                  "preco_centavos": 0
+                },
+                {
+                  "nome": "Mini",
+                  "preco_centavos": -200
+                }
+              ]
+            },
+            {
+              "nome": "Preparo",
+              "tipo": "multiplo",
+              "min_escolhas": 0,
+              "max_escolhas": 2,
+              "opcoes": [
+                {
+                  "nome": "Xis partido",
+                  "preco_centavos": 0
+                },
+                {
+                  "nome": "Fritas fora",
+                  "preco_centavos": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "slug": "xis-file-catupiry",
+          "nome": "Xis Filé c/ Catupiry",
+          "descricao": "Pão, filé, queijo, catupiry, ervilha, milho, tomate, alface, fritas, maionese e ovo",
+          "preco_centavos": 4200,
+          "imagem_url": null,
+          "grupos": [
+            {
+              "nome": "Tamanho",
+              "tipo": "unico",
+              "min_escolhas": 1,
+              "max_escolhas": 1,
+              "opcoes": [
+                {
+                  "nome": "Tradicional",
+                  "preco_centavos": 0
+                },
+                {
+                  "nome": "Mini",
+                  "preco_centavos": -200
+                }
+              ]
+            },
+            {
+              "nome": "Preparo",
+              "tipo": "multiplo",
+              "min_escolhas": 0,
+              "max_escolhas": 2,
+              "opcoes": [
+                {
+                  "nome": "Xis partido",
+                  "preco_centavos": 0
+                },
+                {
+                  "nome": "Fritas fora",
+                  "preco_centavos": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "slug": "xis-file-acebolado",
+          "nome": "Xis Filé Acebolado",
+          "descricao": "Pão, filé, cebola, ervilha, milho, queijo, tomate, alface, fritas, maionese e ovo",
+          "preco_centavos": 4200,
+          "imagem_url": null,
+          "grupos": [
+            {
+              "nome": "Tamanho",
+              "tipo": "unico",
+              "min_escolhas": 1,
+              "max_escolhas": 1,
+              "opcoes": [
+                {
+                  "nome": "Tradicional",
+                  "preco_centavos": 0
+                },
+                {
+                  "nome": "Mini",
+                  "preco_centavos": -200
+                }
+              ]
+            },
+            {
+              "nome": "Preparo",
+              "tipo": "multiplo",
+              "min_escolhas": 0,
+              "max_escolhas": 2,
+              "opcoes": [
+                {
+                  "nome": "Xis partido",
+                  "preco_centavos": 0
+                },
+                {
+                  "nome": "Fritas fora",
+                  "preco_centavos": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "slug": "xis-file-palmito",
+          "nome": "Xis Filé c/ Palmito",
+          "descricao": "Pão, filé, palmito, queijo, tomate, alface, fritas, ervilha, milho, maionese e ovo",
+          "preco_centavos": 4000,
+          "imagem_url": null,
+          "grupos": [
+            {
+              "nome": "Tamanho",
+              "tipo": "unico",
+              "min_escolhas": 1,
+              "max_escolhas": 1,
+              "opcoes": [
+                {
+                  "nome": "Tradicional",
+                  "preco_centavos": 0
+                },
+                {
+                  "nome": "Mini",
+                  "preco_centavos": -200
+                }
+              ]
+            },
+            {
+              "nome": "Preparo",
+              "tipo": "multiplo",
+              "min_escolhas": 0,
+              "max_escolhas": 2,
+              "opcoes": [
+                {
+                  "nome": "Xis partido",
+                  "preco_centavos": 0
+                },
+                {
+                  "nome": "Fritas fora",
+                  "preco_centavos": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "slug": "xis-file-4-queijos",
+          "nome": "Xis Filé 4 Queijos",
+          "descricao": "Pão, filé, 4 queijos, tomate, alface, fritas, ervilha, milho, maionese e ovo",
+          "preco_centavos": 4200,
+          "imagem_url": null,
+          "grupos": [
+            {
+              "nome": "Tamanho",
+              "tipo": "unico",
+              "min_escolhas": 1,
+              "max_escolhas": 1,
+              "opcoes": [
+                {
+                  "nome": "Tradicional",
+                  "preco_centavos": 0
+                },
+                {
+                  "nome": "Mini",
+                  "preco_centavos": -200
+                }
+              ]
+            },
+            {
+              "nome": "Preparo",
+              "tipo": "multiplo",
+              "min_escolhas": 0,
+              "max_escolhas": 2,
+              "opcoes": [
+                {
+                  "nome": "Xis partido",
+                  "preco_centavos": 0
+                },
+                {
+                  "nome": "Fritas fora",
+                  "preco_centavos": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "slug": "prensado",
+          "nome": "Prensado",
+          "descricao": "Pão, queijo, presunto, fritas, tomate, alface, maionese e ovo",
+          "preco_centavos": 2000,
+          "imagem_url": null,
+          "grupos": [
+            {
+              "nome": "Preparo",
+              "tipo": "multiplo",
+              "min_escolhas": 0,
+              "max_escolhas": 2,
+              "opcoes": [
+                {
+                  "nome": "Xis partido",
+                  "preco_centavos": 0
+                },
+                {
+                  "nome": "Fritas fora",
+                  "preco_centavos": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "slug": "xis-palmito",
+          "nome": "Xis Palmito",
+          "descricao": "Pão, hambúrguer, palmito, queijo, tomate, alface, fritas, maionese e ovo",
+          "preco_centavos": 2800,
+          "imagem_url": null,
+          "grupos": [
+            {
+              "nome": "Tamanho",
+              "tipo": "unico",
+              "min_escolhas": 1,
+              "max_escolhas": 1,
+              "opcoes": [
+                {
+                  "nome": "Tradicional",
+                  "preco_centavos": 0
+                },
+                {
+                  "nome": "Mini",
+                  "preco_centavos": -200
+                }
+              ]
+            },
+            {
+              "nome": "Preparo",
+              "tipo": "multiplo",
+              "min_escolhas": 0,
+              "max_escolhas": 2,
+              "opcoes": [
+                {
+                  "nome": "Xis partido",
+                  "preco_centavos": 0
+                },
+                {
+                  "nome": "Fritas fora",
+                  "preco_centavos": 0
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "slug": "xis-portuguesa",
+          "nome": "Xis Portuguesa",
+          "descricao": "Pão, hambúrguer, queijo, azeitona, cebola, pimentão, tomate, alface, fritas, maionese e ovo",
+          "preco_centavos": 3000,
+          "imagem_url": null,
+          "grupos": [
+            {
+              "nome": "Tamanho",
+              "tipo": "unico",
+              "min_escolhas": 1,
+              "max_escolhas": 1,
+              "opcoes": [
+                {
+                  "nome": "Tradicional",
+                  "preco_centavos": 0
+                },
+                {
+                  "nome": "Mini",
+                  "preco_centavos": -200
+                }
+              ]
+            },
+            {
+              "nome": "Preparo",
+              "tipo": "multiplo",
+              "min_escolhas": 0,
+              "max_escolhas": 2,
+              "opcoes": [
+                {
+                  "nome": "Xis partido",
+                  "preco_centavos": 0
+                },
+                {
+                  "nome": "Fritas fora",
+                  "preco_centavos": 0
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "torradas",
+      "nome": "Torradas",
+      "descricao": null,
+      "produtos": [
+        {
+          "slug": "torrada-triplo-x",
+          "nome": "Torrada Triplo X",
+          "descricao": "Pão hulk, bife de filé, queijo, presunto, ovo e maionese",
+          "preco_centavos": 3000,
+          "imagem_url": null,
+          "grupos": []
+        },
+        {
+          "slug": "torrada-strogonoff",
+          "nome": "Torrada c/ Strogonoff",
+          "descricao": "Pão hulk, strogonoff, queijo, tomate, ovo e maionese",
+          "preco_centavos": 3000,
+          "imagem_url": null,
+          "grupos": []
+        },
+        {
+          "slug": "torrada-simples",
+          "nome": "Torrada Simples",
+          "descricao": "Pão hulk, queijo, presunto e maionese",
+          "preco_centavos": 1800,
+          "imagem_url": null,
+          "grupos": []
+        },
+        {
+          "slug": "torrada-salada",
+          "nome": "Torrada c/ Salada",
+          "descricao": "Pão hulk, bife, tomate, alface, queijo, presunto, maionese e ovo",
+          "preco_centavos": 2200,
+          "imagem_url": null,
+          "grupos": []
+        }
+      ]
+    },
+    {
+      "slug": "cachorros-quentes",
+      "nome": "Cachorros Quentes",
+      "descricao": null,
+      "produtos": [
+        {
+          "slug": "cachorrao-calabresa",
+          "nome": "Cachorrão Calabresa",
+          "descricao": "Pão, calabresa, molho, milho, ervilha, fritas e maionese",
+          "preco_centavos": 2600,
+          "imagem_url": null,
+          "grupos": []
+        },
+        {
+          "slug": "cachorro-simples",
+          "nome": "Cachorro Simples",
+          "descricao": "Pão, salsicha, molho, milho, ervilha, fritas e maionese",
+          "preco_centavos": 2200,
+          "imagem_url": null,
+          "grupos": []
+        },
+        {
+          "slug": "cachorrao-strogonoff",
+          "nome": "Cachorrão Strogonoff",
+          "descricao": "Pão, strogonoff, molho, milho, ervilha, fritas e maionese",
+          "preco_centavos": 3000,
+          "imagem_url": null,
+          "grupos": []
+        },
+        {
+          "slug": "cao-pastor",
+          "nome": "Cão Pastor",
+          "descricao": "Pão, salsicha grelhada, 5 fatias de queijo e maionese",
+          "preco_centavos": 2200,
+          "imagem_url": null,
+          "grupos": []
+        },
+        {
+          "slug": "cachorro-especial",
+          "nome": "Cachorro Especial",
+          "descricao": "Pão, 2 salsichas, molho, milho, ervilha, fritas e maionese",
+          "preco_centavos": 2500,
+          "imagem_url": null,
+          "grupos": []
+        },
+        {
+          "slug": "cao-triplo-x",
+          "nome": "Cão Triplo X",
+          "descricao": "Pão, calabresa, queijo, catupiry, cheddar, ketchup e maionese",
+          "preco_centavos": 2400,
+          "imagem_url": null,
+          "grupos": []
+        }
+      ]
+    },
+    {
+      "slug": "batatas-em-torre",
+      "nome": "Batatas em Torre",
+      "descricao": null,
+      "produtos": [
+        {
+          "slug": "batata-torre-strogonoff",
+          "nome": "Batata em Torre Strogonoff",
+          "descricao": "Batata, strogonoff de carne e molho",
+          "preco_centavos": 13990,
+          "imagem_url": null,
+          "grupos": [
+            {
+              "nome": "Tamanho",
+              "tipo": "unico",
+              "min_escolhas": 1,
+              "max_escolhas": 1,
+              "opcoes": [
+                {
+                  "nome": "Torre",
+                  "preco_centavos": 0
+                },
+                {
+                  "nome": "Pequena",
+                  "preco_centavos": -1000
+                }
+              ]
+            },
+            {
+              "nome": "Adicionais",
+              "tipo": "multiplo",
+              "min_escolhas": 0,
+              "max_escolhas": null,
+              "opcoes": [
+                {
+                  "nome": "Cheddar",
+                  "preco_centavos": 1000
+                },
+                {
+                  "nome": "Catupiry",
+                  "preco_centavos": 1000
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "slug": "batata-torre-mista",
+          "nome": "Batata em Torre Mista",
+          "descricao": "Batata, bacon, coração, frango, queijo, calabresa e molho",
+          "preco_centavos": 12990,
+          "imagem_url": null,
+          "grupos": [
+            {
+              "nome": "Tamanho",
+              "tipo": "unico",
+              "min_escolhas": 1,
+              "max_escolhas": 1,
+              "opcoes": [
+                {
+                  "nome": "Torre",
+                  "preco_centavos": 0
+                },
+                {
+                  "nome": "Pequena",
+                  "preco_centavos": -1000
+                }
+              ]
+            },
+            {
+              "nome": "Adicionais",
+              "tipo": "multiplo",
+              "min_escolhas": 0,
+              "max_escolhas": null,
+              "opcoes": [
+                {
+                  "nome": "Cheddar",
+                  "preco_centavos": 1000
+                },
+                {
+                  "nome": "Catupiry",
+                  "preco_centavos": 1000
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "porcoes",
+      "nome": "Porções",
+      "descricao": null,
+      "produtos": [
+        {
+          "slug": "fritas-meia-porcao",
+          "nome": "Fritas ½ Porção",
+          "descricao": null,
+          "preco_centavos": 2500,
+          "imagem_url": null,
+          "grupos": []
+        },
+        {
+          "slug": "fritas",
+          "nome": "Fritas",
+          "descricao": null,
+          "preco_centavos": 4000,
+          "imagem_url": null,
+          "grupos": []
+        },
+        {
+          "slug": "fritas-queijo",
+          "nome": "Fritas c/ Queijo",
+          "descricao": null,
+          "preco_centavos": 4500,
+          "imagem_url": null,
+          "grupos": []
+        },
+        {
+          "slug": "porcao-mista",
+          "nome": "Mista",
+          "descricao": "Coração, frango, linguicinha, azeitona, iscas de carne, polenta frita, cebola à milanesa, ovo de codorna, pepino, fritas, farofa e maionese",
+          "preco_centavos": 12590,
+          "imagem_url": null,
+          "grupos": []
+        },
+        {
+          "slug": "porcao-meia-mista",
+          "nome": "Meia Mista",
+          "descricao": "Coração, frango, linguicinha, azeitona, iscas de carne, polenta frita, cebola à milanesa, ovo de codorna, pepino, fritas, farofa e maionese",
+          "preco_centavos": 9990,
+          "imagem_url": null,
+          "grupos": []
+        }
+      ]
+    },
+    {
+      "slug": "pasteis-salgados",
+      "nome": "Pastéis Salgados",
+      "descricao": null,
+      "produtos": [
+        {
+          "slug": "pastel-carne",
+          "nome": "Carne",
+          "descricao": null,
+          "preco_centavos": 1550,
+          "imagem_url": null,
+          "grupos": [
+            {
+              "nome": "Adicionais",
+              "tipo": "multiplo",
+              "min_escolhas": 0,
+              "max_escolhas": null,
+              "opcoes": [
+                {
+                  "nome": "Queijo",
+                  "preco_centavos": 200
+                },
+                {
+                  "nome": "Bacon",
+                  "preco_centavos": 200
+                },
+                {
+                  "nome": "Ovo",
+                  "preco_centavos": 200
+                },
+                {
+                  "nome": "Azeitona",
+                  "preco_centavos": 200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "slug": "pastel-carne-ovo",
+          "nome": "Carne c/ Ovo",
+          "descricao": null,
+          "preco_centavos": 1650,
+          "imagem_url": null,
+          "grupos": [
+            {
+              "nome": "Adicionais",
+              "tipo": "multiplo",
+              "min_escolhas": 0,
+              "max_escolhas": null,
+              "opcoes": [
+                {
+                  "nome": "Queijo",
+                  "preco_centavos": 200
+                },
+                {
+                  "nome": "Bacon",
+                  "preco_centavos": 200
+                },
+                {
+                  "nome": "Ovo",
+                  "preco_centavos": 200
+                },
+                {
+                  "nome": "Azeitona",
+                  "preco_centavos": 200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "slug": "pastel-carne-queijo",
+          "nome": "Carne c/ Queijo",
+          "descricao": null,
+          "preco_centavos": 1700,
+          "imagem_url": null,
+          "grupos": [
+            {
+              "nome": "Adicionais",
+              "tipo": "multiplo",
+              "min_escolhas": 0,
+              "max_escolhas": null,
+              "opcoes": [
+                {
+                  "nome": "Queijo",
+                  "preco_centavos": 200
+                },
+                {
+                  "nome": "Bacon",
+                  "preco_centavos": 200
+                },
+                {
+                  "nome": "Ovo",
+                  "preco_centavos": 200
+                },
+                {
+                  "nome": "Azeitona",
+                  "preco_centavos": 200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "slug": "pastel-frango",
+          "nome": "Frango",
+          "descricao": null,
+          "preco_centavos": 1550,
+          "imagem_url": null,
+          "grupos": [
+            {
+              "nome": "Adicionais",
+              "tipo": "multiplo",
+              "min_escolhas": 0,
+              "max_escolhas": null,
+              "opcoes": [
+                {
+                  "nome": "Queijo",
+                  "preco_centavos": 200
+                },
+                {
+                  "nome": "Bacon",
+                  "preco_centavos": 200
+                },
+                {
+                  "nome": "Ovo",
+                  "preco_centavos": 200
+                },
+                {
+                  "nome": "Azeitona",
+                  "preco_centavos": 200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "slug": "pastel-frango-queijo",
+          "nome": "Frango Queijo",
+          "descricao": null,
+          "preco_centavos": 1650,
+          "imagem_url": null,
+          "grupos": [
+            {
+              "nome": "Adicionais",
+              "tipo": "multiplo",
+              "min_escolhas": 0,
+              "max_escolhas": null,
+              "opcoes": [
+                {
+                  "nome": "Queijo",
+                  "preco_centavos": 200
+                },
+                {
+                  "nome": "Bacon",
+                  "preco_centavos": 200
+                },
+                {
+                  "nome": "Ovo",
+                  "preco_centavos": 200
+                },
+                {
+                  "nome": "Azeitona",
+                  "preco_centavos": 200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "slug": "pastel-frango-catupiry",
+          "nome": "Frango c/ Catupiry",
+          "descricao": null,
+          "preco_centavos": 1650,
+          "imagem_url": null,
+          "grupos": [
+            {
+              "nome": "Adicionais",
+              "tipo": "multiplo",
+              "min_escolhas": 0,
+              "max_escolhas": null,
+              "opcoes": [
+                {
+                  "nome": "Queijo",
+                  "preco_centavos": 200
+                },
+                {
+                  "nome": "Bacon",
+                  "preco_centavos": 200
+                },
+                {
+                  "nome": "Ovo",
+                  "preco_centavos": 200
+                },
+                {
+                  "nome": "Azeitona",
+                  "preco_centavos": 200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "slug": "pastel-calabresa",
+          "nome": "Calabresa",
+          "descricao": null,
+          "preco_centavos": 1650,
+          "imagem_url": null,
+          "grupos": [
+            {
+              "nome": "Adicionais",
+              "tipo": "multiplo",
+              "min_escolhas": 0,
+              "max_escolhas": null,
+              "opcoes": [
+                {
+                  "nome": "Queijo",
+                  "preco_centavos": 200
+                },
+                {
+                  "nome": "Bacon",
+                  "preco_centavos": 200
+                },
+                {
+                  "nome": "Ovo",
+                  "preco_centavos": 200
+                },
+                {
+                  "nome": "Azeitona",
+                  "preco_centavos": 200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "slug": "pastel-calabresa-bacon",
+          "nome": "Calabresa c/ Bacon",
+          "descricao": null,
+          "preco_centavos": 1750,
+          "imagem_url": null,
+          "grupos": [
+            {
+              "nome": "Adicionais",
+              "tipo": "multiplo",
+              "min_escolhas": 0,
+              "max_escolhas": null,
+              "opcoes": [
+                {
+                  "nome": "Queijo",
+                  "preco_centavos": 200
+                },
+                {
+                  "nome": "Bacon",
+                  "preco_centavos": 200
+                },
+                {
+                  "nome": "Ovo",
+                  "preco_centavos": 200
+                },
+                {
+                  "nome": "Azeitona",
+                  "preco_centavos": 200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "slug": "pastel-calabresa-cheddar",
+          "nome": "Calabresa Cheddar",
+          "descricao": null,
+          "preco_centavos": 1750,
+          "imagem_url": null,
+          "grupos": [
+            {
+              "nome": "Adicionais",
+              "tipo": "multiplo",
+              "min_escolhas": 0,
+              "max_escolhas": null,
+              "opcoes": [
+                {
+                  "nome": "Queijo",
+                  "preco_centavos": 200
+                },
+                {
+                  "nome": "Bacon",
+                  "preco_centavos": 200
+                },
+                {
+                  "nome": "Ovo",
+                  "preco_centavos": 200
+                },
+                {
+                  "nome": "Azeitona",
+                  "preco_centavos": 200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "slug": "pastel-napolito",
+          "nome": "Napolito",
+          "descricao": null,
+          "preco_centavos": 1450,
+          "imagem_url": null,
+          "grupos": [
+            {
+              "nome": "Adicionais",
+              "tipo": "multiplo",
+              "min_escolhas": 0,
+              "max_escolhas": null,
+              "opcoes": [
+                {
+                  "nome": "Queijo",
+                  "preco_centavos": 200
+                },
+                {
+                  "nome": "Bacon",
+                  "preco_centavos": 200
+                },
+                {
+                  "nome": "Ovo",
+                  "preco_centavos": 200
+                },
+                {
+                  "nome": "Azeitona",
+                  "preco_centavos": 200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "slug": "pastel-strogonoff",
+          "nome": "Strogonoff",
+          "descricao": null,
+          "preco_centavos": 2550,
+          "imagem_url": null,
+          "grupos": [
+            {
+              "nome": "Adicionais",
+              "tipo": "multiplo",
+              "min_escolhas": 0,
+              "max_escolhas": null,
+              "opcoes": [
+                {
+                  "nome": "Queijo",
+                  "preco_centavos": 200
+                },
+                {
+                  "nome": "Bacon",
+                  "preco_centavos": 200
+                },
+                {
+                  "nome": "Ovo",
+                  "preco_centavos": 200
+                },
+                {
+                  "nome": "Azeitona",
+                  "preco_centavos": 200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "slug": "pastel-palmito-queijo",
+          "nome": "Palmito c/ Queijo",
+          "descricao": null,
+          "preco_centavos": 1550,
+          "imagem_url": null,
+          "grupos": [
+            {
+              "nome": "Adicionais",
+              "tipo": "multiplo",
+              "min_escolhas": 0,
+              "max_escolhas": null,
+              "opcoes": [
+                {
+                  "nome": "Queijo",
+                  "preco_centavos": 200
+                },
+                {
+                  "nome": "Bacon",
+                  "preco_centavos": 200
+                },
+                {
+                  "nome": "Ovo",
+                  "preco_centavos": 200
+                },
+                {
+                  "nome": "Azeitona",
+                  "preco_centavos": 200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "slug": "pastel-queijo",
+          "nome": "Queijo",
+          "descricao": null,
+          "preco_centavos": 1650,
+          "imagem_url": null,
+          "grupos": [
+            {
+              "nome": "Adicionais",
+              "tipo": "multiplo",
+              "min_escolhas": 0,
+              "max_escolhas": null,
+              "opcoes": [
+                {
+                  "nome": "Queijo",
+                  "preco_centavos": 200
+                },
+                {
+                  "nome": "Bacon",
+                  "preco_centavos": 200
+                },
+                {
+                  "nome": "Ovo",
+                  "preco_centavos": 200
+                },
+                {
+                  "nome": "Azeitona",
+                  "preco_centavos": 200
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "slug": "pastel-coracao",
+          "nome": "Coração",
+          "descricao": null,
+          "preco_centavos": 2250,
+          "imagem_url": null,
+          "grupos": [
+            {
+              "nome": "Adicionais",
+              "tipo": "multiplo",
+              "min_escolhas": 0,
+              "max_escolhas": null,
+              "opcoes": [
+                {
+                  "nome": "Queijo",
+                  "preco_centavos": 200
+                },
+                {
+                  "nome": "Bacon",
+                  "preco_centavos": 200
+                },
+                {
+                  "nome": "Ovo",
+                  "preco_centavos": 200
+                },
+                {
+                  "nome": "Azeitona",
+                  "preco_centavos": 200
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "slug": "pasteis-doces",
+      "nome": "Pastéis Doces",
+      "descricao": null,
+      "produtos": [
+        {
+          "slug": "pastel-doce-chocolate-preto",
+          "nome": "Chocolate Preto",
+          "descricao": null,
+          "preco_centavos": 2000,
+          "imagem_url": null,
+          "grupos": []
+        },
+        {
+          "slug": "pastel-doce-chocolate-branco",
+          "nome": "Chocolate Branco",
+          "descricao": null,
+          "preco_centavos": 2000,
+          "imagem_url": null,
+          "grupos": []
+        },
+        {
+          "slug": "pastel-doce-chocolate-misto",
+          "nome": "Chocolate Misto",
+          "descricao": null,
+          "preco_centavos": 2400,
+          "imagem_url": null,
+          "grupos": []
+        }
+      ]
+    },
+    {
+      "slug": "alaminutas",
+      "nome": "Alaminutas",
+      "descricao": null,
+      "produtos": [
+        {
+          "slug": "alaminuta-carne-1",
+          "nome": "Carne 1 Pessoa",
+          "descricao": "Arroz, feijão, ovo, tomate, alface, fritas e carne",
+          "preco_centavos": 3500,
+          "imagem_url": null,
+          "grupos": []
+        },
+        {
+          "slug": "alaminuta-carne-2",
+          "nome": "Carne 2 Pessoas",
+          "descricao": "Arroz, feijão, ovo, tomate, alface, fritas e carne",
+          "preco_centavos": 6000,
+          "imagem_url": null,
+          "grupos": []
+        },
+        {
+          "slug": "alaminuta-carne-acebolada-1",
+          "nome": "Carne Acebolada 1 Pessoa",
+          "descricao": "Arroz, feijão, ovo, tomate, alface, fritas, cebola e carne",
+          "preco_centavos": 3800,
+          "imagem_url": null,
+          "grupos": []
+        },
+        {
+          "slug": "alaminuta-carne-acebolada-2",
+          "nome": "Carne Acebolada 2 Pessoas",
+          "descricao": "Arroz, feijão, ovo, tomate, alface, cebola, fritas e carne",
+          "preco_centavos": 6500,
+          "imagem_url": null,
+          "grupos": []
+        },
+        {
+          "slug": "alaminuta-frango-1",
+          "nome": "Frango 1 Pessoa",
+          "descricao": "Arroz, feijão, ovo, tomate, alface, fritas e frango",
+          "preco_centavos": 3500,
+          "imagem_url": null,
+          "grupos": []
+        },
+        {
+          "slug": "alaminuta-frango-2",
+          "nome": "Frango 2 Pessoas",
+          "descricao": "Arroz, feijão, ovo, tomate, alface, fritas e frango",
+          "preco_centavos": 6000,
+          "imagem_url": null,
+          "grupos": []
+        },
+        {
+          "slug": "alaminuta-frango-acebolado-1",
+          "nome": "Frango Acebolado 1 Pessoa",
+          "descricao": "Arroz, feijão, ovo, tomate, alface, fritas e frango",
+          "preco_centavos": 3800,
+          "imagem_url": null,
+          "grupos": []
+        },
+        {
+          "slug": "alaminuta-frango-acebolado-2",
+          "nome": "Frango Acebolado 2 Pessoas",
+          "descricao": "Arroz, feijão, ovo, tomate, alface, fritas e frango",
+          "preco_centavos": 6500,
+          "imagem_url": null,
+          "grupos": []
+        }
+      ]
+    },
+    {
+      "slug": "hamburgueres",
+      "nome": "Hambúrgueres",
+      "descricao": null,
+      "produtos": [
+        {
+          "slug": "hamburguer-tradicional",
+          "nome": "Tradicional",
+          "descricao": "Pão, molho da casa, hambúrguer 160g, mussarela e fritas",
+          "preco_centavos": 2590,
+          "imagem_url": null,
+          "grupos": []
+        },
+        {
+          "slug": "hamburguer-salada",
+          "nome": "Salada",
+          "descricao": "Pão, molho da casa, hambúrguer 160g, mussarela, alface, tomate, cebola roxa, picles e fritas",
+          "preco_centavos": 3590,
+          "imagem_url": null,
+          "grupos": []
+        },
+        {
+          "slug": "hamburguer-bacon",
+          "nome": "Bacon",
+          "descricao": "Pão, molho da casa, hambúrguer 160g, cheddar, bacon, alface e fritas",
+          "preco_centavos": 3590,
+          "imagem_url": null,
+          "grupos": []
+        },
+        {
+          "slug": "hamburguer-acebolado",
+          "nome": "Acebolado",
+          "descricao": "Pão, molho da casa, hambúrguer 160g, mussarela, cebola grelhada, alface e fritas",
+          "preco_centavos": 3490,
+          "imagem_url": null,
+          "grupos": []
+        },
+        {
+          "slug": "hamburguer-duplo",
+          "nome": "Duplo",
+          "descricao": "Pão, molho da casa, 2 hambúrgueres 160g, mussarela, bacon, alface, tomate e fritas",
+          "preco_centavos": 4200,
+          "imagem_url": null,
+          "grupos": []
+        }
+      ]
+    },
+    {
+      "slug": "bebidas",
+      "nome": "Bebidas",
+      "descricao": null,
+      "produtos": [
+        {
+          "slug": "agua-mineral",
+          "nome": "Água Mineral",
+          "descricao": null,
+          "preco_centavos": 600,
+          "imagem_url": null,
+          "grupos": []
+        },
+        {
+          "slug": "refri-lata",
+          "nome": "Refrigerante Lata",
+          "descricao": null,
+          "preco_centavos": 700,
+          "imagem_url": null,
+          "grupos": []
+        },
+        {
+          "slug": "h2oh",
+          "nome": "H2OH!",
+          "descricao": null,
+          "preco_centavos": 900,
+          "imagem_url": null,
+          "grupos": []
+        }
+      ]
+    }
+  ]
+}

@@ -45,6 +45,7 @@ loja_online_helpers               loja_online_lookups
 loja_online_despacho_comandas     loja_online_lookup_cobranca
 loja_online_confirmar_pagamento   loja_online_importar_cardapio
 loja_online_api_catalogo          loja_online_hardening
+loja_online_opcoes_preco_negativo
 ```
 
 Nenhuma delas altera o schema `public` do sistema de comandas, exceto por
@@ -96,7 +97,8 @@ Sem `imagem_url`, o card aparece só com texto — o layout já trata isso.
 
 ## Ordem sugerida de go-live
 
-1. Carregar o cardápio oficial (`npm run seed`) e conferir preços e fotos.
+1. ~~Carregar o cardápio oficial~~ — **feito**: 76 produtos importados e
+   conferidos por checksum. Falta apenas adicionar as fotos (`imagem_url`).
 2. Cadastrar os bairros com as taxas reais.
 3. Configurar o PSP de Pix e testar uma cobrança de valor baixo de ponta a ponta.
 4. Instalar o agente de impressão na loja, primeiro em modo `console`.

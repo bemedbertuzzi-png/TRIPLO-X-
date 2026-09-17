@@ -61,10 +61,34 @@ A importação é idempotente: usa `slug` como chave, atualiza o que existe e
 **desativa** (não apaga) o que sumiu do arquivo, preservando o histórico de
 pedidos antigos.
 
-> ⚠️ O catálogo hoje contém **10 produtos provisórios** (`provisorio = true`),
-> extraídos do histórico real de pedidos do sistema interno, apenas para
-> permitir testar o fluxo completo. Rodar `npm run seed` com o cardápio
-> oficial substitui todos eles.
+> O cardápio oficial **já está carregado**: 10 categorias e 76 produtos,
+> importados de `CardapioTriploX.2.pdf`. O arquivo `dados/cardapio.json` é a
+> fonte de verdade — edite e rode `npm run seed` para publicar mudanças.
+
+### Tamanhos (MINI, PEQ)
+
+Em todo o cardápio o MINI custa exatamente R$ 2,00 a menos. Em vez de
+duplicar 23 produtos, ele é um **grupo de tamanho obrigatório** com a opção
+`Mini` valendo `-200` centavos. Assim o preço de vitrine continua idêntico ao
+do cardápio impresso. O mesmo vale para as batatas em torre (`Pequena`,
+`-1000`).
+
+`loja_criar_pedido` recusa qualquer combinação cujo preço unitário final
+fique em zero ou abaixo, então uma opção de desconto nunca pode ser abusada.
+
+### Divergências corrigidas no PDF
+
+Dois preços do cardápio impresso estavam inconsistentes e foram corrigidos
+com aprovação do estabelecimento:
+
+| Produto | No PDF | Cadastrado |
+|---|---|---|
+| Xis Coração c/ Cheddar | R$ 36,00 / MINI R$ 37,00 | R$ 39,00 / MINI R$ 37,00 |
+| Xis Filé c/ Palmito | R$ 40,00 / MINI R$ 40,00 | R$ 40,00 / MINI R$ 38,00 |
+
+Bebidas marcadas como **CONSULTAR** (cervejas, chopp, caipirinha, dose de
+whisky) **não** foram cadastradas: não há preço definido e não é possível
+vendê-las online sem um valor.
 
 ---
 
@@ -86,7 +110,8 @@ pedidos antigos.
 
 **Funcionando e testado**
 
-- Cardápio, categorias, busca, personalização, carrinho persistente
+- Cardápio oficial completo: 10 categorias, 76 produtos, 162 opções
+- Categorias, busca, personalização, tamanhos (MINI) e carrinho persistente
 - Checkout com validação em duas camadas (cliente e servidor)
 - Criação de pedido com preço calculado no servidor e idempotência
 - Fila de impressão com proteção contra impressão duplicada
@@ -100,5 +125,9 @@ pedidos antigos.
 - **Emissão fiscal**: não implementada — falta a documentação da Geranet.
 - **Impressão**: exige o agente rodando no computador da loja.
 - **Despacho para comandas**: começa **desligado** por segurança.
+- **Imagens dos produtos**: nenhum produto tem foto ainda (`imagem_url` nulo);
+  o layout já trata esse caso e mostra só o texto.
+- **Bairros e taxas de entrega**: ainda não cadastrados. Existe apenas um
+  bairro placeholder ("Centro", taxa R$ 0,00) — configurar antes de abrir.
 
 O que exatamente falta está em cada documento acima e no relatório de entrega.

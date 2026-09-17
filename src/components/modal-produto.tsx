@@ -16,9 +16,15 @@ interface Props {
 export function ModalProduto({ produto, itemExistente, aoFechar, aoConfirmar }: Props) {
   const [quantidade, setQuantidade] = useState(itemExistente?.quantidade ?? 1);
   const [observacao, setObservacao] = useState(itemExistente?.observacao ?? "");
-  const [selecionadas, setSelecionadas] = useState<string[]>(
-    itemExistente?.opcaoIds ?? [],
-  );
+  const [selecionadas, setSelecionadas] = useState<string[]>(() => {
+    if (itemExistente) return itemExistente.opcaoIds;
+    // grupos obrigatorios de escolha unica (ex.: "Tamanho") ja abrem com a
+    // primeira opcao marcada, que e a do preco anunciado no cardapio
+    return produto.grupos
+      .filter((g) => g.tipo === "unico" && g.min_escolhas > 0)
+      .map((g) => g.opcoes.find((o) => o.disponivel)?.id)
+      .filter((id): id is string => Boolean(id));
+  });
   const [erro, setErro] = useState<string | null>(null);
   const dialogo = useRef<HTMLDivElement>(null);
 
@@ -175,9 +181,10 @@ export function ModalProduto({ produto, itemExistente, aoFechar, aoConfirmar }: 
                         className="size-4 accent-(--color-marca-amarelo)"
                       />
                       <span className="flex-1 text-sm">{opcao.nome}</span>
-                      {opcao.preco_centavos > 0 ? (
+                      {opcao.preco_centavos !== 0 ? (
                         <span className="text-sm text-(--color-tinta-suave)">
-                          + {formatarBRL(opcao.preco_centavos)}
+                          {opcao.preco_centavos > 0 ? "+ " : "− "}
+                          {formatarBRL(Math.abs(opcao.preco_centavos))}
                         </span>
                       ) : null}
                     </label>
